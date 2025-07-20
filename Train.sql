@@ -1,5 +1,5 @@
 SELECT *
 FROM customers
-WHERE last_name REGEXP "e[gim]"
+WHERE last_name REGEXP "e[a-h]"
 
--- ge / ie / me
+-- ea / eb / ec / ed / ee / eh
