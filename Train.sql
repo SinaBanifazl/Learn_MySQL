@@ -1,2 +1,2 @@
-SELECT state
+SELECT DISTINCT state
 FROM customers
