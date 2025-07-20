@@ -1,6 +1,2 @@
-USE sql_store;
-
-SELECT *
+SELECT first_name, last_name, points, (points * 10) + 100
 FROM customers
--- WHERE customer_id=1
-ORDER BY first_name
