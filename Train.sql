@@ -1,3 +1,5 @@
 SELECT *
 FROM customers
-WHERE last_name REGEXP "field|^mac|rose"
+WHERE last_name REGEXP "e[gim]"
+
+-- ge / ie / me
