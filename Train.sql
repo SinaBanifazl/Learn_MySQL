@@ -1,3 +1,3 @@
 SELECT *
 FROM customers
-ORDER BY first_name DESC
+LIMIT 6, 3
