@@ -1,3 +1,3 @@
 SELECT *
-FROM customers
-WHERE points > 3000 OR (points > 1000 AND state = "VA")
+FROM order_items
+WHERE order_id=6 AND unit_price * quantity > 30
