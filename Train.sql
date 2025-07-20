@@ -1,2 +1,3 @@
-SELECT DISTINCT state
+SELECT *
 FROM customers
+WHERE points > 3000
