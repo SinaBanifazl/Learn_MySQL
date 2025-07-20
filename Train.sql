@@ -1,3 +1,3 @@
 SELECT *
 FROM customers
-WHERE state NOT IN ("VA", "GA", "FL")
+WHERE points >= 1000 AND points <= 3000
