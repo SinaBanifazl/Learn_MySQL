@@ -1,3 +1,3 @@
 SELECT *
 FROM customers
-WHERE phone IS NULL 
+ORDER BY first_name DESC
