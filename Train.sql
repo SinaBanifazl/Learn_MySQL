@@ -1,3 +1,3 @@
 SELECT *
-FROM order_items
-WHERE order_id=6 AND unit_price * quantity > 30
+FROM customers
+WHERE state = "VA" OR state = "GA" OR state = "FL"
