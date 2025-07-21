@@ -1,7 +1,8 @@
 SELECT c.customer_id, c.first_name, o.order_id
 FROM customers c
-JOIN orders o
+LEFT JOIN orders o
 	ON c.customer_id = o.customer_id
-ORDER BY c.customer_id
+JOIN shippers sh
+	ON o.shipper_id = sh.shipper_id
     
--- customer_id who dos'n have orders was not show. we fix that in next commit
+-- we have the previous problem
