@@ -1,4 +1,6 @@
-SELECT order_id, o.customer_id, first_name, last_name
-FROM orders o 
-JOIN customers c
-	ON o.customer_id = c.customer_id
+SELECT *
+FROM order_items oi
+JOIN order_item_notes oin
+	ON oi.order_id = oin.order_Id AND oi.product_id = oin.product_id
+    
+    
